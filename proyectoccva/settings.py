@@ -33,7 +33,7 @@ SECRET_KEY = 'udfc)bb=vb4l+b5h+#od%g%_d(!fmw^!u6p2@!y)@iozgeyz%t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
