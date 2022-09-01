@@ -6,29 +6,36 @@
 
 {% block content %}
 
-<form method="post" action="" style="color: white;" >
+<!-- Fondo (verde Home) page 1 -->
+<footer class="footer text-faded text-center py-5">
+    <div class="container">
+      <p class="m-0">
+          <a href="#" class="link">
+            <span class="fa-stack fa-lg">
 
-{% csrf_token  %}
+            
+              <form method="post" action="" style="color: white;" >
 
-<div style="width: 75%; margin:auto;"></div>
+                {% csrf_token  %}
+                
+                <div style="width: 75%; margin:auto;">
+                
+                {{form|crispy}}
+                
+                
+                <button type="submit" class="btn btn success"> Loguear </button>
+          </a>
+          <a href="#" class="link">
+            <span class="fa-stack fa-lg">
+            </span>
+          </a>
+      </p>
+      <p class="m-0 mbt">
 
-{% if messages  %}
-
-{% for mensaje in messages  %}
-
-<span class="alert alert-{{mensaje.tags}}"> {{mensaje}} </span>
 
 
-{% endfor %}
-
-{% endif %}
-
-<br/><br/>
-
-{{form|crispy}}
 
 
-<button type="submit" class="btn btn success"> loguear</button>
 
 </div>
 
