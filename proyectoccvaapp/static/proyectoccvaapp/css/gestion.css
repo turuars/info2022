@@ -166,6 +166,7 @@ p {
   margin: 0.5rem;
   background-color: #1f567c;
   color: cornsilk;
+  border-radius: 1rem!important
 }
 
 .cta .cta-inner:before {
@@ -235,7 +236,8 @@ p {
     border-radius: 1rem!important;
 }
 .footer {
-   background-color: #224468;
+    background-color: #224468;
+    border-radius: 1rem!important;
 }
 
 
