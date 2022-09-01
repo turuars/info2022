@@ -1,6 +1,6 @@
 body {
   font-family: 'Lora';
-  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg_main.jpg");
+  background: linear-gradient(#1f567c), #1f567c), url("../img/bg_main.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -80,7 +80,7 @@ p {
 }
 
 #mainNav {
-  background-color: #1f567c);
+  background-color: #1f567c;
   font-family: 'Raleway';
 }
 
