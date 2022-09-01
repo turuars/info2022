@@ -79,6 +79,7 @@ p {
 
 .bg-faded {
   background-color: #1f567c;
+  border-radius: 1rem!important;
 }
 
 #mainNav {
