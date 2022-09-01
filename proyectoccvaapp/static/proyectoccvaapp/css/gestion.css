@@ -131,6 +131,7 @@ p {
     float: left;
   }
   .intro .intro-text {
+    border-radius: 1rem!important;
     left: 600;
     width: 60%;
     margin-top: 3rem;
